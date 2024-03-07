@@ -65,7 +65,7 @@ class _HomePageState extends State<HomePage> {
             ),
             ElevatedButton(
               onPressed: () async {
-                final call = Uri.parse('tel:+880 1610182028');
+                final call = Uri.parse('tel:+880 1111111111');
                 if (await canLaunchUrl(call)) {
                   launchUrl(call);
                 } else {
@@ -81,7 +81,7 @@ class _HomePageState extends State<HomePage> {
                 shadowColor: Colors.black,
               ),
               onPressed: () async {
-                final sms = Uri.parse('sms:01610182028');
+                final sms = Uri.parse('sms:01111111111');
                 if (await canLaunchUrl(sms)) {
                   launchUrl(sms);
                 } else {
